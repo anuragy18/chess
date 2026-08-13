@@ -7,12 +7,30 @@
     "types": ["vite/client"],
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
+<<<<<<< HEAD
+=======
+
+    /* Bundler mode */
+>>>>>>> 0afca9fa854b4206328e7a993ee17d0eab8f5933
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+<<<<<<< HEAD
     "jsx": "react-jsx"
   },
   "include": ["src/**/*"]
 }
+=======
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
+>>>>>>> 0afca9fa854b4206328e7a993ee17d0eab8f5933
