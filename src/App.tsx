@@ -36,6 +36,7 @@ import { Leaderboard } from './components/Leaderboard';
 
 import confetti from 'canvas-confetti';
 import { AlertCircle, Bot } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 export function App() {
   const [profile, setProfile] = useState<UserProfile>(getStoredProfile());
@@ -537,6 +538,7 @@ export function App() {
 
         {mode === 'leaderboard' && <Leaderboard userProfile={profile} />}
       </main>
+      <Analytics />
     </div>
   );
 }
